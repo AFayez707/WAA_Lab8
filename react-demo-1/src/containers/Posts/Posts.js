@@ -1,11 +1,12 @@
-import { useState, useEffect } from "react";
+import {useState, useEffect, useContext} from "react";
 import Post from "../../components/Post/Post";
 import axios from "axios";
+import {PostContext} from "../dashboard/Dashboard";
 
 
 const Posts = (props) => {
-
     console.log("Post UPDATE");
+    const { selectedState, setSelectedState } = useContext(PostContext);
 
     const [posts, setPosts] = useState(
         [
@@ -37,7 +38,7 @@ const Posts = (props) => {
             content={product.content}
             id={product.id}
             key={product.id}
-            setSelected={() => { props.setSelected(product.id) }}
+            setSelected={() => { setSelectedState(product.id) }}
         />
     });
 

@@ -1,10 +1,11 @@
-import React, {useState, useEffect} from "react";
+import React, {useState, useEffect, createContext} from "react";
 import NewPost from "../../components/NewPost/NewPost";
 import PostDetails from "../../components/PostDetails/PostDetails";
 import Post from "../../components/Post/Post";
 import Posts from "../../containers/Posts/Posts";
 import {ThemeColorContext} from "../../store/ThemeColor";
 
+export const PostContext = createContext(null);
 
 const Dashboard = () => {
 
@@ -16,7 +17,7 @@ const Dashboard = () => {
         setFetchflag(!fetchFlag);
     }
 
-    const setSelected = (id) => {
+  const setSelected = (id) => {
         setSelectedState(id);
     }
 
@@ -30,26 +31,31 @@ const Dashboard = () => {
 
 
     return (
+        <PostContext.Provider value={{ selectedState, setSelectedState }}>
+
         <div>
 
             <div>
-                <Posts
-                selectedState={selectedState}
-                    setSelected={setSelected}
-                    fetchFlag={fetchFlag}
-                />
+
+                     <Posts
+                         fetchFlag={fetchFlag}
+                    />
             </div>
             <button onClick={reviewColorHandler}>Change color</button>
             {<div>
                 <PostDetails
-                    id={selectedState} setSelected={setSelected} changeFetchFlag={changeFetchFlag}  />
+                     changeFetchFlag={changeFetchFlag}/>
+
             </div>}
             <div>
                 <NewPost changeFetchFlag={changeFetchFlag}/>
 
             </div>
 
+
         </div>
+        </PostContext.Provider>
+
     );
 
 }
