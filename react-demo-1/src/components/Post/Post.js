@@ -3,7 +3,7 @@
 const Post = (props) => {
 
     return (
-        <div className="Content" onClick={props.setSelected}>
+        <div className="Content" >
             <h1>{props.title}</h1>
             <div className="Field">
                 {props.author}

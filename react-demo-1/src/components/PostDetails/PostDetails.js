@@ -4,6 +4,7 @@ import './PostDetails.css'
 import {Fragment} from "react";
 import Comment from "../Comment/Comment";
 import Comments from "../../containers/Comments/Coments";
+<<<<<<< Updated upstream
 const PostDetails = ({ id, setSelected, changeFetchFlag }) => {
     const [postDetail, setPostDetail] = useState({})
 
@@ -14,6 +15,42 @@ const PostDetails = ({ id, setSelected, changeFetchFlag }) => {
                 setPostDetail(response.data)
             }).catch(err => console.log(err.message))
     },[id]);
+=======
+import {PostContext} from "../../pages/dashboard/Dashboard";
+import { useNavigate,useParams } from 'react-router-dom';
+
+
+const PostDetails = () => {
+    const navigate = useNavigate();
+    const params = useParams();
+
+    console.log("POSTDETAILS UPDATE");
+
+    const [postDetail, setPostDetail] =  useState([]);;
+
+
+    useEffect(
+        () => {
+            axios.get('http://localhost:8080/api/posts/' + params.id + '/comments')
+                .then(response => {
+                    setPostDetail(response.data)
+                    console.log("postDetail:", postDetail)
+                    console.log("RESPONSE:", response.data)
+                })
+                .catch(err => console.log(err.message))
+        },
+        [params.id])
+
+
+    const deleteButtonClicked = (id) => {
+        axios.delete('http://localhost:8080/api/posts/' + id)
+            .then(response => {
+                navigate("/");
+            })
+            .catch(err => {
+                console.error(err);
+            })
+>>>>>>> Stashed changes
 
     const deleteButtonClicked = (id) => {
       axios.delete('http://localhost:8080/api/posts/' +id)
@@ -25,6 +62,7 @@ const PostDetails = ({ id, setSelected, changeFetchFlag }) => {
     }
 
     const space = <Fragment>&nbsp;&nbsp;</Fragment>;
+<<<<<<< Updated upstream
     let postDetailDisplay = null;
     console.log(id)
     if(id!==0){
@@ -48,6 +86,32 @@ const PostDetails = ({ id, setSelected, changeFetchFlag }) => {
              <button onClick={ () => {deleteButtonClicked(id)}}> Delete</button>
          </div>
      )
+=======
+
+    let productDetailsDisplay = null;
+    if (params.id) {
+        productDetailsDisplay = (
+
+            <div className="PostDetail">
+                <h1>Post Detials</h1>
+                <div>
+                     <br/>
+                    <div style={{textAlign: "left"}}>
+                        {space} Reviews <br/>
+                        <Comments comment={postDetail} key={params.id}/>
+
+
+                     </div>
+
+
+                </div>
+                <button onClick={() => {
+                    deleteButtonClicked(params.id)
+                }}> Delete
+                </button>
+            </div>
+        );
+>>>>>>> Stashed changes
     }
 return postDetailDisplay
 

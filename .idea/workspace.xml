@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a176691-3df2-44a6-9f99-6e042f725db9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/react.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demo-1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-demo-1/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demo-1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-demo-1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demo-1/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-demo-1/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demo-1/src/components/Comment/Comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-demo-1/src/components/Comment/Comment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demo-1/src/components/NewPost/NewPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-demo-1/src/components/NewPost/NewPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demo-1/src/components/Post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-demo-1/src/components/Post/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demo-1/src/components/PostDetails/PostDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-demo-1/src/components/PostDetails/PostDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demo-1/src/components/changeTitle/ChangeTitle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demo-1/src/components/changeTitle/changeTitle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demo-1/src/components/changeTitle/updateTitle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demo-1/src/containers/Comments/Coments.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-demo-1/src/containers/Comments/Coments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demo-1/src/containers/Posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-demo-1/src/containers/Posts/Posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demo-1/src/containers/dashboard/Dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demo-1/src/containers/headers/Header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demo-1/src/containers/headers/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demo-1/src/pages/dashboard/Pages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demo-1/src/store/Selected.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27fHW0Ddo8lOy6Qtrsx5qacNRpB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/react-demo-1/src/components/navbar" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Users\DELL\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\213.6461.79\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\maharishi-master\Courses\WAA\react\react-demo-1\src\components\navbar" />
+      <recent name="D:\maharishi-master\Courses\WAA\react\react-demo-1\src\components\changeTitle" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\maharishi-master\Courses\WAA\react\react-demo-1\src\pages" />
+      <recent name="D:\maharishi-master\Courses\WAA\react\react-demo-1\src\containers\dashboard" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/react-demo-1/src/App.js" working-dir="$PROJECT_DIR$/react-demo-1/src">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.App.js" />
+        <item itemvalue="Node.js.App.js" />
+        <item itemvalue="Node.js.App.js" />
+        <item itemvalue="Node.js.App.js" />
+        <item itemvalue="Node.js.App.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a176691-3df2-44a6-9f99-6e042f725db9" name="Changes" comment="" />
+      <created>1649704248420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649704248420</updated>
+      <workItem from="1649704249558" duration="1965000" />
+      <workItem from="1649738925735" duration="1423000" />
+      <workItem from="1649740367119" duration="1196000" />
+      <workItem from="1649775294601" duration="7542000" />
+      <workItem from="1649827742184" duration="311000" />
+      <workItem from="1649876629884" duration="714000" />
+      <workItem from="1649878993391" duration="787000" />
+      <workItem from="1649910910372" duration="3460000" />
+      <workItem from="1649936438849" duration="17399000" />
+      <workItem from="1649975512709" duration="8610000" />
+      <workItem from="1650034899504" duration="9925000" />
+      <workItem from="1650129704373" duration="19456000" />
+      <workItem from="1650224639032" duration="1896000" />
+      <workItem from="1650228204355" duration="483000" />
+      <workItem from="1650228706302" duration="299000" />
+    </task>
+    <task id="LOCAL-00001" summary="lab-07&#10;12-04-2022">
+      <created>1649790859651</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649790859651</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lab-07&#10;12-04-2022">
+      <created>1649910949735</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649910949735</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lab-07&#10;12-04-2022">
+      <created>1649910967125</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649910967125</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lab-08&#10;12-04-2022">
+      <created>1649954082218</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649954082218</updated>
+    </task>
+    <task id="LOCAL-00005" summary="lab-08&#10;14-04-2022">
+      <created>1649962267931</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649962267931</updated>
+    </task>
+    <task id="LOCAL-00006" summary="lab-08&#10;14-04-2022">
+      <created>1650001191470</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650001191470</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lab-08&#10;14-04-2022">
+      <created>1650001275425</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650001275425</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lab-09&#10;16-04-2022">
+      <created>1650152329898</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650152329898</updated>
+    </task>
+    <task id="LOCAL-00009" summary="lab-10&#10;16-04-2022">
+      <created>1650227854674</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650227854674</updated>
+    </task>
+    <task id="LOCAL-00010" summary="lab-09&#10;16-04-2022">
+      <created>1650227903248</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650227903248</updated>
+    </task>
+    <task id="LOCAL-00011" summary="lab-10&#10;16-04-2022">
+      <created>1650228357266</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650228357266</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab-07&#10;12-04-2022" />
+    <MESSAGE value="lab-08&#10;12-04-2022" />
+    <MESSAGE value="lab-08&#10;14-04-2022" />
+    <MESSAGE value="lab-09&#10;16-04-2022" />
+    <MESSAGE value="lab-10&#10;16-04-2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab-10&#10;16-04-2022" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/react-demo-1/src/components/Post/Post.js</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/react-demo-1/src/components/NewPost/NewPost.js</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
